@@ -8,7 +8,12 @@ Extracting structured data from tables and charts in scientific publications rem
 
 ### `Paper Selection/`
 
-This folder documents the **paper selection process**, with each filtering step tracked for full transparency and reproducibility.
+This folder documents the **paper selection process**, with each filtering step tracked for full transparency and reproducibility. The folder contains the following Excel files:
+
+* `Raw_Search.xlsx` - Initial retrieval of 8,398 records from all databases
+* `Deduplicated_Records.xlsx` - Records after duplicate removal (7,678 unique entries)
+* `Title_Screening.xlsx` - Records after title screening (565 studies)
+* `Abstract_Screening.xlsx` - Records after abstract screening (68 studies)
 
 The screening process includes the following steps:
 
@@ -48,7 +53,10 @@ These 68 papers form the core dataset for downstream analysis. From them, we ext
 
 ### `Data Extraction/`
 
-This folder includes data extraction tables designed to support analysis of our research questions (RQs):
+This folder includes data extraction tables designed to support analysis of our research questions (RQs). The folder contains the following Excel files:
+
+* `RQ_Analysis_Strategy.xlsx` - Analysis strategy organized by research questions
+* `Comparison_Framework.xlsx` - Complete comparison framework with all annotated dimensions for the 68 included studies
 
 * **Full Data Extraction**  
   Dataset including article metadata such as title, authors, year, source database, DOI, and peer-reviewed status.

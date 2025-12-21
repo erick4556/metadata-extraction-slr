@@ -2,61 +2,39 @@
 
 This folder contains data extraction tables designed to support analysis of the research questions.
 
-## Data Extraction Tables
+## Data Extraction Files
 
-### Full Data Extraction
-Complete dataset including article metadata:
-- Title
-- Authors
-- Publication year
-- Source database
-- DOI
-- Peer-reviewed status
-- Language
+This folder contains the following Excel files:
 
-### Data Extraction for RQ1 (RQ1a-RQ1e)
-Information related to current approaches, tools, and models:
+### `RQ_Analysis_Strategy.xlsx`
+This file contains the analysis strategy organized by research questions, including:
+- Data extraction for RQ1 (RQ1a-RQ1e): Current approaches, tools, and models
+  - Modality coverage (tables, charts, or both)
+  - Task coverage (detection, structure recognition, data reconstruction, table-chart linking)
+  - Model types (deep learning, rule-based, heuristic, hybrid, vision-language models)
+- Data extraction for RQ2 (RQ2a): Multimodal alignment methods
+  - Alignment mechanisms (text matching, embedding similarity, vision-language models)
+  - Table-chart linking approaches
+  - Shared metadata identification
+  - Variable alignment across modalities
+
+### `Comparison_Framework.xlsx`
+This file contains the complete comparison framework with all annotated dimensions for the 68 included studies, including:
+- **Full Data Extraction**: Article metadata (title, authors, year, source, DOI, peer-reviewed status, language)
 - **Modality Coverage**: Tables, charts, or both
-- **Task Coverage**: 
-  - Table detection
-  - Table structure recognition
-  - Chart detection
-  - Chart component detection
-  - Data reconstruction
-  - Table-chart linking
-- **Model Type**: 
-  - Deep learning (CNNs, Transformers)
-  - Rule-based
-  - Heuristic
-  - Hybrid
-  - Vision-language models
-
-### Data Extraction for RQ2 (RQ2a)
-Information on multimodal alignment:
-- Alignment mechanisms (text matching, embedding similarity, vision-language models)
-- Table-chart linking approaches
-- Shared metadata identification
-- Variable alignment across modalities
-
-### Evaluation Metrics and Performance
-Evaluation practices across studies:
-- **Metrics**: Precision, recall, F1-score, accuracy, IoU, numeric error
-- **Evaluation Levels**: 
-  - Component level
-  - Structure level
-  - End-to-end system level
-- **Reported Performance**: Quantitative results when available
-
-### Artifact Availability
-Documentation of publicly available resources:
-- Code availability
-- Dataset availability
-- Trained model availability
-- Demo availability
+- **Task Coverage**: Specific extraction tasks addressed
+- **Model Type**: Computational paradigm used
+- **Dataset and Benchmark Use**: Public or proprietary datasets
+- **Evaluation Metrics and Performance**: 
+  - Metrics (precision, recall, F1-score, accuracy, IoU, numeric error)
+  - Evaluation levels (component, structure, end-to-end)
+  - Reported performance results
+- **Artifact Availability**: Code, datasets, trained models, and demo availability
+- **Level of Information Extracted**: Layout-level, label-level, value-level
 
 ## Data Format
 
-Data extraction tables are provided in Excel format (.xlsx) for easy analysis and filtering.
+All data extraction tables are provided in Excel format (.xlsx) for easy analysis and filtering.
 
 ## Data Availability
 

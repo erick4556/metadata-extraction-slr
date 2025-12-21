@@ -42,12 +42,16 @@ The paper selection process was conducted in five sequential phases:
 - **Excluded**: 0 (all 68 met the inclusion criteria)
 - **Evaluation method**: Formal application of inclusion criteria (IC1-IC4) and exclusion criteria (EC1-EC4)
 
-## Documentation
+## Documentation Files
 
-The selection process is documented in:
-- Screening decisions recorded in annotation sheets
-- Deduplication summary statistics
-- Screening phase summaries
+The selection process is documented in the following Excel files:
+
+* **`Raw_Search.xlsx`** - Contains all 8,398 initial records retrieved from the six databases and search engines
+* **`Deduplicated_Records.xlsx`** - Contains 7,678 unique records after duplicate removal
+* **`Title_Screening.xlsx`** - Contains 565 records that passed title screening
+* **`Abstract_Screening.xlsx`** - Contains 68 records that passed abstract screening
+
+Each file documents the screening decisions, deduplication statistics, and phase summaries for full transparency and reproducibility.
 
 ## Transparency
 
