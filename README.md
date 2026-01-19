@@ -121,7 +121,3 @@ This systematic review addresses the following research questions:
 * **Processed data**: Available in `Paper Selection/` and `Data Extraction/` folders
 * **Evaluation framework**: Complete documentation available in `evaluation_framework.md`
 
-
-## Acknowledgments
-
-This systematic review follows the methodology established by Kitchenham and Charters (2007) for conducting systematic literature reviews, ensuring transparency, reproducibility, and consistency throughout the process.
